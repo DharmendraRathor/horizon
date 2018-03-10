@@ -1,1 +1,1 @@
-repository to contain test projects.
+repository contains test projects developed while learning new things.
