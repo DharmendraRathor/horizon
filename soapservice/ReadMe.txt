@@ -15,6 +15,7 @@ java -jar target/soapservice-0.0.1-SNAPSHOT.jar
 
 3. In Eclipse , you can right click App.java and > Run As Java application. 
 
+
 4. Services can be tested using curl or rest client. 
 
 POST  http://localhost:8080/ws/getCountryRequest
@@ -31,3 +32,7 @@ Request
       </gs:getCountryRequest>
    </soapenv:Body>
 </soapenv:Envelope>
+
+5. WSDL file can be accessed at location
+
+GET http://localhost:8080/ws/countries.wsdl
